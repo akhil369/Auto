@@ -10,7 +10,7 @@ public class Base {
 		 driver=new ChromeDriver();
 		 driver.get("https://www.google.com/");//url get
 		 driver.manage().window().maximize();//maximize window
-		 //Thread.sleep(5000);
+		
 		 
 	}
 	
