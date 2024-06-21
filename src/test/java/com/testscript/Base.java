@@ -8,7 +8,7 @@ public class Base {
 	public void initializeBrowser()
 	{
 		 driver=new ChromeDriver();
-		 driver.get("https://www.google.com/");//url get
+		 driver.get("https://selenium.qabible.in/simple-form-demo.php");//url get
 		 driver.manage().window().maximize();//maximize window
 		
 		 

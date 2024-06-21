@@ -18,7 +18,7 @@ driver.navigate().forward();//navigate again to amazon.in
 		
 		BrowserCommands browsercommands=new BrowserCommands();
 		browsercommands.initializeBrowser();
-		
+		   
 		browsercommands.navigationCommands();
 		browsercommands.driverQuit();
 		
