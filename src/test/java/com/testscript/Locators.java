@@ -19,11 +19,7 @@ public class Locators extends Base {
 	WebElement cssChecker=driver.findElement(By.cssSelector("section.clearfix"));
 	WebElement cssChecke=driver.findElement(By.cssSelector("button[data-target='#collapsibleNavbar']"));
 	WebElement xpathCheck=driver.findElement(By.xpath("//button[@id='button-one']"));
-//	 System.out.println("Show Message Button found: " + (showMessageButton != null));
-//     System.out.println("Enter Value Text Box A found: " + (enterValueTextBoxA != null));
-//     System.out.println("Enter Value Text Box B found: " + (enterValueTextBoxB != null));
-//     System.out.println("Get Total Button found: " + (getTotalButton != null));
-//     System.out.println("Clear Fix Element found: " + (clearFix != null));
+
 	}
 	
 	public void navigateToAnother()
@@ -68,7 +64,7 @@ public class Locators extends Base {
     	WebElement nameRedBus1=driver.findElement(By.name("Keywords"));
     	WebElement nameRedBus2=driver.findElement(By.name("robots"));
     	WebElement cssSelectorRedBus1=driver.findElement(By.cssSelector("div#sticky_phantom"));
-    	WebElement cssSelectorRedBus2=driver.findElement(By.cssSelector("div#Carousel"));
+    	WebElement cssSelectorRedBus2=driver.findElement(By.cssSelector("footer#rh_footer_new"));
     	WebElement cssSelectorRedBus3=driver.findElement(By.cssSelector("li#cancel_ticket"));
     	WebElement cssSelectorClassRedBus1=driver.findElement(By.cssSelector("ul.rb_verticals"));
     	WebElement cssSelectorClassRedBus2=driver.findElement(By.cssSelector("div.img_rb_vertical_wrap"));
@@ -92,17 +88,13 @@ public class Locators extends Base {
     	WebElement partialFlipkart2=driver.findElement(By.partialLinkText("Corporate"));
     	WebElement partialFlipkart3=driver.findElement(By.partialLinkText("Redressal"));
     	WebElement partialFlipkart4=driver.findElement(By.partialLinkText("Infringement"));
+    	
     }
     
     
     
     
-	
-	
-		
-	
-
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 		Locators locators=new Locators();
 		locators.initializeBrowser();
 		locators.locatorsMechanism();
